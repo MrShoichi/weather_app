@@ -25,9 +25,6 @@ ThemeData light_theme = ThemeData(
     ),
 
 
-    platform: TargetPlatform.android,
-    materialTapTargetSize: MaterialTapTargetSize.padded,
-    applyElevationOverlayColor: true,
     elevatedButtonTheme: ElevatedButtonThemeData(
         style: ButtonStyle(
             backgroundColor:
@@ -36,15 +33,11 @@ ThemeData light_theme = ThemeData(
                 RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0),
                     side: const BorderSide(color: Color(0xff038CFE)))))),
-    pageTransitionsTheme: PageTransitionsTheme(
-        //page transition theme
-    ),
+
     appBarTheme: AppBarTheme(
         foregroundColor: Colors.white,
     ),
-    bottomAppBarTheme: BottomAppBarTheme(
-        // bottom app bar theme
-    ),
+
     toggleButtonsTheme: ToggleButtonsThemeData(
         color: Color(0xff4b5f88),
         fillColor: Color(0xffe2ebff)
@@ -55,18 +48,7 @@ ThemeData light_theme = ThemeData(
 
 
     ),
-    popupMenuTheme: PopupMenuThemeData(
-        //pop menu theme
-    ),
-    bannerTheme: MaterialBannerThemeData(
-        // material banner theme
-    ),
-    dividerTheme: DividerThemeData(
-        //divider, vertical divider theme
-    ),
-    buttonBarTheme: ButtonBarThemeData(
-        // button bar theme
-    ),
+
     fontFamily: 'ROBOTO',
     splashFactory: InkSplash.splashFactory
 );
@@ -96,9 +78,6 @@ color: Colors.white
         primaryColor: Colors.white,
         primaryContrastingColor: Colors.black
     ),
-
-    platform: TargetPlatform.android,
-    materialTapTargetSize: MaterialTapTargetSize.padded,
     applyElevationOverlayColor: true,
     elevatedButtonTheme: ElevatedButtonThemeData(
         style: ButtonStyle(
@@ -108,34 +87,15 @@ color: Colors.white
                 RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0),
                     side: const BorderSide(color: Colors.white))))),
-    pageTransitionsTheme: PageTransitionsTheme(
-        //page transition theme
-        ),
     appBarTheme: AppBarTheme(
         foregroundColor: Colors.white,
         ),
-    bottomAppBarTheme: BottomAppBarTheme(
-        // bottom app bar theme
-        ),
-
     bottomSheetTheme: BottomSheetThemeData(
       backgroundColor: Color(0xff071427),
       modalBackgroundColor: Colors.white,
 
 
     ),
-    popupMenuTheme: PopupMenuThemeData(
-        //pop menu theme
-        ),
-    bannerTheme: MaterialBannerThemeData(
-        // material banner theme
-        ),
-    dividerTheme: DividerThemeData(
-        //divider, vertical divider theme
-        ),
-    buttonBarTheme: ButtonBarThemeData(
-        // button bar theme
-        ),
     splashFactory: InkSplash.splashFactory,
     toggleButtonsTheme: ToggleButtonsThemeData(
         color: Color(0xff0e182c),

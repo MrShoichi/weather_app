@@ -59,8 +59,8 @@ class WeekPage extends StatelessWidget {
         case "Fog":
         case "Ash": return "images/smogWeek.png";
         case "Squall": return "images/smogWeek.png";
-        case "Rain": return "images/rainsSunWeek.png";
-        case "Drizzle": return "images/rainWeek.png";
+        case "Rain": return "images/rainWeek.png";
+        case "Drizzle": return "images/rainsSunWeek.png";
       }
 
   }
