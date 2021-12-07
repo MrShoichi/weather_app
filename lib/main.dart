@@ -53,7 +53,7 @@ class _MyAppState extends State<MyApp> {
       favouriteCity = city;
     });
   }
-  ThemeData themeData = DateTime.now().hour < 18 || DateTime.now().hour < 6 ? dark_theme: light_theme;
+  ThemeData themeData = DateTime.now().hour >= 18 || DateTime.now().hour < 6 ? dark_theme: light_theme;
   @override
   Widget build(BuildContext context) {
 
