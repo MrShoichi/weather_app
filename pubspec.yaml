@@ -82,6 +82,10 @@ flutter:
     - images/smog.png
     - images/snow.png
     - images/cloudyWeek.png
+    - images/darkRain.png
+    - images/darkRains.png
+    - images/darkClear.png
+    - images/darkSmog.png
     - images/darkLight.png
     - images/darkTheme.png
     - images/darkCloudy.png

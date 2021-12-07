@@ -92,16 +92,16 @@ class _BodyState extends State<Body> {
       switch(time) {
         case "Clouds": return "images/darkCloudy.png";
         case "Snow": return "images/darkSnow.png";
-        case "Clear": return "images/sun.png";
+        case "Clear": return "images/darkClear.png";
         case "Thunderstorm": return "images/darkLight.png";
         case "Mist":
         case "Smoke":
         case "Haze":
         case "Fog":
         case "Ash":
-        case "Squall": return "images/smog.png";
-        case "Rain":
-        case "Drizzle": return "images/rain.png";
+        case "Squall": return "images/darkSmog.png";
+        case "Rain": return "images/darkRains.png";
+        case "Drizzle": return "images/darkRain.png";
         }
     }
 
